@@ -1,0 +1,19 @@
+{
+    "name": "llama3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "naidia": "node ./naidia.js",
+        "groq": "node ./groq.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.6.8",
+        "groq-sdk": "^0.3.3",
+        "openai": "^4.42.0"
+    }
+}

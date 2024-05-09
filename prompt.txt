@@ -1,0 +1,12 @@
+你帮我把一句英语句子拆分成一系列简单的部分，用于重复地训练用户输入，直到掌握整个句子；注意：每一个句子由多个英语单词组成的部分都应该尽可能先拆分成更小的部分，避免突然从一个单词或精简的短语变成一个较长的短句。
+再帮我给小部分添加一个soundmark字段，并且把音标部分也加上，返回的格式可以是 json, 返回的结构类似于 ast tree 那样。注意，并不只给我返回每个单词的结果，也要给我返回某几个单词组合的结果。如：Your reliable partner
+
+完整句子如下：Your reliable partner in navigating the world of coding
+
+示例一个小部分如下结构：
+{
+    "type": "word",
+    "english": "go",
+    "chinese": "去",
+    "soundmark": "/ɡoʊ/"
+}
